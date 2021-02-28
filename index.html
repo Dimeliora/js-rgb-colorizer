@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB Colorizer</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./js/main.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="colorizer">
+        <form class="colorizer__mode-selector">
+          <fieldset>
+            <legend>Select</legend>
+            <label for="color">color</label>
+            <input type="radio" name="mode" id="color" />
+            <label for="backgroundColor">backgroundColor</label>
+            <input type="radio" name="mode" id="backgroundColor" />
+          </fieldset>
+        </form>
+
+        <div class="colorizer__output">
+          <div class="colorizer__rgb-controls">
+            <div class="colorizer__slider" id="red"></div>
+            <div class="colorizer__slider" id="green"></div>
+            <div class="colorizer__slider" id="blue"></div>
+          </div>
+
+          <div class="colorizer__screen" id="screen">
+            <span
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              tempore laudantium asperiores eum aliquam.</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

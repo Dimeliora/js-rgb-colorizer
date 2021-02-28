@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 962px;
+  margin: 0 auto;
+}
+
+.colorizer {
+  padding: 30px 0;
+}
+
+.colorizer__mode-selector {
+  margin-bottom: 20px;
+}
+
+.colorizer__mode-selector label {
+  font-family: inherit;
+}
+
+.colorizer__output {
+  display: flex;
+  align-items: center;
+}
+
+.colorizer__rgb-controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.colorizer__slider {
+  width: 300px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+#red .ui-slider-range {
+  background: #ef2929;
+}
+
+#red .ui-slider-handle {
+  border-color: #ef2929;
+  cursor: pointer;
+}
+
+#green .ui-slider-range {
+  background: #8ae234;
+}
+
+#green .ui-slider-handle {
+  border-color: #8ae234;
+  cursor: pointer;
+}
+
+#blue .ui-slider-range {
+  background: #729fcf;
+}
+
+#blue .ui-slider-handle {
+  border-color: #729fcf;
+  cursor: pointer;
+}
+
+.colorizer__screen {
+  width: 200px;
+  height: 90px;
+  margin-left: 30px;
+  padding: 5px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}
